@@ -1,0 +1,7 @@
+#!/bash 
+ec2-user
+sudo -i
+yum install httpd -y
+cd /var/log/html
+echo "welcome to linux" >index .html
+service httpd restart
